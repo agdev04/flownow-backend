@@ -1,0 +1,12 @@
+### Login User
+POST http://localhost:8000/auth/login
+Content-Type: application/json
+
+{
+    "email": "dev@agnieve.com",
+    "password": "pass123"
+}
+
+### Logout User
+POST http://localhost:8000/auth/logout
+Content-Type: application/json

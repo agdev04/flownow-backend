@@ -1,0 +1,30 @@
+### Create a new category
+POST http://localhost:8000/api/categories
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+
+{
+    "name": "Meditation"
+}
+
+### Get all categories
+GET http://localhost:8000/api/categories
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+
+### Get a specific category
+GET http://localhost:8000/api/categories/1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+
+### Update a category
+PUT http://localhost:8000/api/categories/1
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+
+{
+    "name": "Updated Meditation",
+    "description": "Updated meditation practices description"
+}
+
+### Delete a category
+DELETE http://localhost:8000/api/categories/1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8

@@ -1,0 +1,46 @@
+### Register a new user
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "email": "dev@agnieve.com",
+    "password": "pass123",
+    "name": "AG Nieve",
+    "role": "admin",
+    "status": "active"
+}
+
+### Login user (HTTP Only Cookie)
+POST http://localhost:8000/auth/login
+Content-Type: application/json
+
+{
+    "email": "dev@agnieve.com",
+    "password": "pass123"
+}
+
+### Get all users
+GET http://localhost:8000/users
+Content-Type: application/json
+
+### Get single user
+GET http://localhost:8000/users/1
+Content-Type: application/json
+
+### Update user
+PUT http://localhost:8000/users/1
+Content-Type: application/json
+
+{
+    "first_name": "Updated",
+    "last_name": "Name",
+    "email": "updated@example.com"
+}
+
+### Delete user
+DELETE http://localhost:8000/users/1
+Content-Type: application/json
+
+### Logout user
+POST http://localhost:8000/auth/logout
+Content-Type: application/json
