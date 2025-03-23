@@ -31,6 +31,7 @@ diesel::table! {
         profile_picture -> Nullable<Varchar>,
         role -> Varchar,
         status -> Varchar,
+        plan -> Varchar,
     }
 }
 

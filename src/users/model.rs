@@ -13,6 +13,7 @@ pub struct User {
     pub profile_picture: Option<String>,
     pub role: String,
     pub status: String,
+    pub plan: String,
 }
 
 #[derive(Queryable, Insertable, Serialize, Deserialize)]
@@ -35,4 +36,5 @@ pub struct UpdateUser {
     pub profile_picture: Option<String>,
     pub role: Option<String>,
     pub status: Option<String>,
+    pub plan: String,
 }
