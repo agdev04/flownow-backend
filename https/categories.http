@@ -1,24 +1,24 @@
 ### Create a new category
-POST http://localhost:8000/api/categories
+POST https://flownow.agnieve.com/api/categories
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI3Mzg1NDF9.AYrruQrMFoLtSeQnPIHM9EuCJ0SLUItfZYRIgcW_UQQ
 
 {
     "name": "Meditation"
 }
 
 ### Get all categories
-GET http://localhost:8000/api/categories
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+GET https://flownow.agnieve.com/api/categories
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI3Mzg1NDF9.AYrruQrMFoLtSeQnPIHM9EuCJ0SLUItfZYRIgcW_UQQ
 
 ### Get a specific category
-GET http://localhost:8000/api/categories/1
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+GET https://flownow.agnieve.com/api/categories/2
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI3Mzg1NDF9.AYrruQrMFoLtSeQnPIHM9EuCJ0SLUItfZYRIgcW_UQQ
 
 ### Update a category
-PUT http://localhost:8000/api/categories/1
+PUT https://flownow.agnieve.com/api/categories/2
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI3Mzg1NDF9.AYrruQrMFoLtSeQnPIHM9EuCJ0SLUItfZYRIgcW_UQQ
 
 {
     "name": "Updated Meditation",
@@ -26,5 +26,5 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lI
 }
 
 ### Delete a category
-DELETE http://localhost:8000/api/categories/1
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+DELETE https://flownow.agnieve.com/api/categories/2
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI3Mzg1NDF9.AYrruQrMFoLtSeQnPIHM9EuCJ0SLUItfZYRIgcW_UQQ

@@ -1,7 +1,7 @@
 ### Create a new meditation
-POST http://localhost:8000/api/meditations
+POST https://flownow.agnieve.com/api/meditations
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI3MzE1NzN9.2LcVoqiYrPUjWh7yCZCvQURQZZPi6sa1tztrLnFEpBU
 
 {
     "title": "Morning Mindfulness",
@@ -14,15 +14,15 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lI
 }
 
 ### Get all meditations
-GET http://localhost:8000/api/meditations
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
+GET https://flownow.agnieve.com/api/meditations
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI3MzE1NzN9.2LcVoqiYrPUjWh7yCZCvQURQZZPi6sa1tztrLnFEpBU
 
 ### Get a specific meditation
-GET http://localhost:8000/api/meditations/2
+GET https://flownow.agnieve.com/api/meditations/2
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
 
 ### Update a meditation
-PUT http://localhost:8000/api/meditations/2
+PUT https://flownow.agnieve.com/api/meditations/2
 Content-Type: application/json
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8
 
@@ -37,5 +37,5 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lI
 }
 
 ### Delete a meditation
-DELETE http://localhost:8000/api/meditations/2
+DELETE https://flownow.agnieve.com/api/meditations/2
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI1NDk0ODZ9._5oi_go4uawZKG0tsYGm2aRMU-3ty9W3a39_P4nbjy8

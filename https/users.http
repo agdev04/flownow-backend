@@ -1,5 +1,6 @@
 ### Login user (HTTP Only Cookie)
-POST http://localhost:8000/auth/login
+# POST http://localhost:3005/auth/login
+POST https://flownow.agnieve.com/auth/login
 Content-Type: application/json
 
 {
@@ -8,7 +9,7 @@ Content-Type: application/json
 }
 
 ### Register a new user
-POST http://localhost:8000/register
+POST https://flownow.agnieve.com/register
 Content-Type: application/json
 
 {
@@ -16,20 +17,23 @@ Content-Type: application/json
     "password": "pass123",
     "name": "AG Nieve",
     "role": "admin",
-    "status": "active"
+    "status": "active",
+    "plan": "free"
 }
 
 
 ### Get all users
-GET http://localhost:8000/users
+GET https://flownow.agnieve.com/users
+# GET http://localhost:3005/users
 Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI4MDE0NjR9.T1OQWQb_K3yuDkfIBOK8kbuIPDT_Vw65MvfqRMdQtS4
 
 ### Get single user
-GET http://localhost:8000/users/1
+GET http://localhost:3005/users/1
 Content-Type: application/json
 
 ### Update user
-PUT http://localhost:8000/users/1
+PUT http://localhost:3005/users/1
 Content-Type: application/json
 
 {
@@ -39,9 +43,9 @@ Content-Type: application/json
 }
 
 ### Delete user
-DELETE http://localhost:8000/users/1
+DELETE http://localhost:3005/users/1
 Content-Type: application/json
 
 ### Logout user
-POST http://localhost:8000/auth/logout
+POST http://localhost:3005/auth/logout
 Content-Type: application/json
