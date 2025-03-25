@@ -15,7 +15,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lI
 
 ### Get all meditations
 GET https://flownow.agnieve.com/api/meditations
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjE3NDI3MzE1NzN9.2LcVoqiYrPUjWh7yCZCvQURQZZPi6sa1tztrLnFEpBU
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb21lb25lIiwiY29tcGFueSI6IjEiLCJleHAiOjIwNTg0ODY4MTl9.qyPFW_ZYq_iFtcHpJW463Inb-D5_asNt8vuOB6UwECk
 
 ### Get a specific meditation
 GET https://flownow.agnieve.com/api/meditations/2
